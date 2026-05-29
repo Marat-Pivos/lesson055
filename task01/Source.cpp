@@ -6,9 +6,9 @@ int main() {
 	int cclass[SIZE];
 
 	for (int i = 0; i < SIZE; i++) {
-		aclass[i] = rand() % (MAX - MIN) + MIN;
-		bclass[i] = rand() % (MAX - MIN) + MIN;
-		cclass[i] = rand() % (MAX - MIN) + MIN;
+		aclass[i] = rand() % (MAX_MARK - MIN_MARK) + MIN_MARK;
+		bclass[i] = rand() % (MAX_MARK - MIN_MARK) + MIN_MARK;
+		cclass[i] = rand() % (MAX_MARK - MIN_MARK) + MIN_MARK;
 	}
 
 	double resulta = get_mid_mark_classa(aclass);
